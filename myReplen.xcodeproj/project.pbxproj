@@ -14,6 +14,9 @@
 		17B2BCFD1FCE52C500A141AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B2BCFB1FCE52C500A141AC /* LaunchScreen.storyboard */; };
 		17B2BD081FCE52C500A141AC /* myReplenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B2BD071FCE52C500A141AC /* myReplenTests.swift */; };
 		17B2BD131FCE52C500A141AC /* myReplenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B2BD121FCE52C500A141AC /* myReplenUITests.swift */; };
+		3E7F1BA032A3E75C0BC0EAC0 /* Pods_myReplen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F98F322DC432B9B3333AF85 /* Pods_myReplen.framework */; };
+		6B7800D1D7B3016DAC2D9C94 /* Pods_myReplenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C449576C756DAD9BE7882A /* Pods_myReplenUITests.framework */; };
+		C242E2E12F57BD9D0169222C /* Pods_myReplenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E689F4FFD9F50BB9EEAA4FC /* Pods_myReplenTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E689F4FFD9F50BB9EEAA4FC /* Pods_myReplenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myReplenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B2BCEF1FCE52C400A141AC /* myReplen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myReplen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B2BCF21FCE52C400A141AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17B2BCF41FCE52C500A141AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		17B2BD0E1FCE52C500A141AC /* myReplenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myReplenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B2BD121FCE52C500A141AC /* myReplenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myReplenUITests.swift; sourceTree = "<group>"; };
 		17B2BD141FCE52C500A141AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20243C656D86D83A8886F54E /* Pods-myReplenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myReplenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myReplenTests/Pods-myReplenTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F98F322DC432B9B3333AF85 /* Pods_myReplen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myReplen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C449576C756DAD9BE7882A /* Pods_myReplenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myReplenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A264C2F9722DA67CAC5838BD /* Pods-myReplen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myReplen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myReplen/Pods-myReplen.debug.xcconfig"; sourceTree = "<group>"; };
+		C1943FD26BFD6E2A92E7C155 /* Pods-myReplenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myReplenUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myReplenUITests/Pods-myReplenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C8F6682A124593255B57D27A /* Pods-myReplenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myReplenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myReplenTests/Pods-myReplenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE6200261A231AA81A62B228 /* Pods-myReplenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myReplenUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myReplenUITests/Pods-myReplenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFED14726C60F171828CE4FA /* Pods-myReplen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myReplen.release.xcconfig"; path = "Pods/Target Support Files/Pods-myReplen/Pods-myReplen.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7F1BA032A3E75C0BC0EAC0 /* Pods_myReplen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C242E2E12F57BD9D0169222C /* Pods_myReplenTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B7800D1D7B3016DAC2D9C94 /* Pods_myReplenUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				17B2BD061FCE52C500A141AC /* myReplenTests */,
 				17B2BD111FCE52C500A141AC /* myReplenUITests */,
 				17B2BCF01FCE52C400A141AC /* Products */,
+				9A22CC414E997923F2B54366 /* Pods */,
+				7719FDC3F08A9F3A68AD1E1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = myReplenUITests;
 			sourceTree = "<group>";
 		};
+		7719FDC3F08A9F3A68AD1E1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F98F322DC432B9B3333AF85 /* Pods_myReplen.framework */,
+				0E689F4FFD9F50BB9EEAA4FC /* Pods_myReplenTests.framework */,
+				42C449576C756DAD9BE7882A /* Pods_myReplenUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A22CC414E997923F2B54366 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A264C2F9722DA67CAC5838BD /* Pods-myReplen.debug.xcconfig */,
+				FFED14726C60F171828CE4FA /* Pods-myReplen.release.xcconfig */,
+				C8F6682A124593255B57D27A /* Pods-myReplenTests.debug.xcconfig */,
+				20243C656D86D83A8886F54E /* Pods-myReplenTests.release.xcconfig */,
+				DE6200261A231AA81A62B228 /* Pods-myReplenUITests.debug.xcconfig */,
+				C1943FD26BFD6E2A92E7C155 /* Pods-myReplenUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17B2BD171FCE52C500A141AC /* Build configuration list for PBXNativeTarget "myReplen" */;
 			buildPhases = (
+				73C7495B60C64435843AE16C /* [CP] Check Pods Manifest.lock */,
 				17B2BCEB1FCE52C400A141AC /* Sources */,
 				17B2BCEC1FCE52C400A141AC /* Frameworks */,
 				17B2BCED1FCE52C400A141AC /* Resources */,
+				F11A575E993B3718C1213393 /* [CP] Embed Pods Frameworks */,
+				4967DFE3FE2B936711FFC294 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17B2BD1A1FCE52C500A141AC /* Build configuration list for PBXNativeTarget "myReplenTests" */;
 			buildPhases = (
+				0D7CD8966265703344C585D0 /* [CP] Check Pods Manifest.lock */,
 				17B2BCFF1FCE52C500A141AC /* Sources */,
 				17B2BD001FCE52C500A141AC /* Frameworks */,
 				17B2BD011FCE52C500A141AC /* Resources */,
+				697A6033F8217C17FA878E46 /* [CP] Embed Pods Frameworks */,
+				22387901D42828CDEED0BF28 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17B2BD1D1FCE52C500A141AC /* Build configuration list for PBXNativeTarget "myReplenUITests" */;
 			buildPhases = (
+				E82AE9F7FE420B061851E0D7 /* [CP] Check Pods Manifest.lock */,
 				17B2BD0A1FCE52C500A141AC /* Sources */,
 				17B2BD0B1FCE52C500A141AC /* Frameworks */,
 				17B2BD0C1FCE52C500A141AC /* Resources */,
+				B1106884081EB6F898FAA74E /* [CP] Embed Pods Frameworks */,
+				6D66593D13498E2A9B120943 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D7CD8966265703344C585D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myReplenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22387901D42828CDEED0BF28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myReplenTests/Pods-myReplenTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4967DFE3FE2B936711FFC294 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myReplen/Pods-myReplen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		697A6033F8217C17FA878E46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myReplenTests/Pods-myReplenTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D66593D13498E2A9B120943 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myReplenUITests/Pods-myReplenUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73C7495B60C64435843AE16C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myReplen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1106884081EB6F898FAA74E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myReplenUITests/Pods-myReplenUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E82AE9F7FE420B061851E0D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myReplenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F11A575E993B3718C1213393 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-myReplen/Pods-myReplen-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myReplen/Pods-myReplen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17B2BCEB1FCE52C400A141AC /* Sources */ = {
@@ -424,6 +625,7 @@
 		};
 		17B2BD181FCE52C500A141AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A264C2F9722DA67CAC5838BD /* Pods-myReplen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +641,7 @@
 		};
 		17B2BD191FCE52C500A141AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFED14726C60F171828CE4FA /* Pods-myReplen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +657,7 @@
 		};
 		17B2BD1B1FCE52C500A141AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8F6682A124593255B57D27A /* Pods-myReplenTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +675,7 @@
 		};
 		17B2BD1C1FCE52C500A141AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20243C656D86D83A8886F54E /* Pods-myReplenTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +693,7 @@
 		};
 		17B2BD1E1FCE52C500A141AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6200261A231AA81A62B228 /* Pods-myReplenUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +710,7 @@
 		};
 		17B2BD1F1FCE52C500A141AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1943FD26BFD6E2A92E7C155 /* Pods-myReplenUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
